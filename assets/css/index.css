@@ -1,0 +1,115 @@
+body { margin: 0;
+       background-color: white;}
+
+.navbar {display: flex;
+         flex-wrap: nowrap;
+         align-items: stretch;
+         border-bottom-style: solid;
+         padding-bottom: 10px;
+         border-bottom-color: black;
+         margin-top: 10px;}
+
+.site_name { margin-right: 300px;
+             width: 500px;
+             margin-left: 50px;}
+
+.teachers { margin-right: 20px;
+           border-right-style: solid;
+           padding-right: 10px;
+           border-right-color: black; }
+
+.student { margin-right: 20px;
+           border-right-style: solid;
+           padding-right: 10px;
+           border-right-color: black;}
+
+.courses  { margin-right: 20px;}
+
+
+.teachers_section { display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-top: 40px;}
+
+.teacher1 {background-color: blue;
+           height: 200px;
+           width: 400px;
+           margin-right: 20px;
+           margin-bottom: 20px;
+           border-style: solid; }
+
+.teacher1_info { margin-left: 150px;}
+
+.teacher1_courses { height: 82px;
+                    width: 200px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    text-align: center;
+                    display: flex;
+                    flex-flow: column nowrap;}
+
+.teacher1_rating{  padding-top: -10px;
+                   border-top-style: solid;
+                   margin-left: 200px;
+                   text-align: center;
+                   margin-top: -85px;}
+
+.teacher2 {background-color: red;
+           height: 200px;
+           width: 400px;
+           margin-right: 20px;
+           margin-bottom: 20px;
+           border-style: solid;
+           }
+
+.teacher2_info {margin-left: 150px;}
+
+.teacher2_courses { height: 82px;
+                    width: 200px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    text-align: center;}
+
+.teacher3 {background-color: yellow;
+           height: 200px;
+           width: 400px;
+           margin-right: 20px;
+           margin-bottom: 20px;
+           border-style: solid;
+           }
+
+.teacher3_info {margin-left: 150px;}
+
+.teacher3_courses { height: 82px;
+                    width: 200px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    text-align: center;}
+
+.teacher4 {background-color: pink;
+           height: 200px;
+           width: 400px;
+           margin-right: 20px;
+           border-style: solid;}
+
+.teacher4_info {margin-left: 150px;}
+
+.teacher4_courses { height: 82px;
+                    width: 200px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    text-align: center;}
+
+.teacher5 {background-color: green;
+          height: 200px;
+          width: 400px;
+          margin-right: 20px;
+          border-style: solid;}
+
+.teacher5_info {margin-left: 150px;}
+
+.teacher5_courses { height: 82px;
+                    width: 200px;
+                    border-top-style: solid;
+                    border-right-style: solid;
+                    text-align: center;}
